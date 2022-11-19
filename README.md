@@ -2,40 +2,42 @@
 
 una pequena apps de recordatorios
 
-## Install the dependencies
+## Para instalar las dependencias ejecute
+
 ```bash
 yarn
 # or
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### para levantar la apps en modo developer
+
 ```bash
 quasar dev
 ```
 
-
 ### Lint the files
+
 ```bash
 yarn lint
 # or
 npm run lint
 ```
 
-
 ### Format the files
+
 ```bash
 yarn format
 # or
 npm run format
 ```
 
-
-
 ### Build the app for production
+
 ```bash
 quasar build
 ```
 
 ### Customize the configuration
+
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
