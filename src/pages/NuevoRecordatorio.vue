@@ -38,25 +38,26 @@ const $q = useQuasar();
 const router = useRouter();
 const datos = ref([]);
 
-function agregar() {
-  datos.value.push({
-    nombre: recordatorio.value,
-    fecha: fecha.value,
-    hecho: false,
-  });
-  $q.localStorage.set("datos", JSON.stringify(datos));
+//
+//function agregar() {
+//  datos.value.push({
+//    nombre: recordatorio.value,
+//    fecha: fecha.value,
+//    hecho: false,
+//  });
+//  $q.localStorage.set("datos", JSON.stringify(datos));
 
-  $q.notify({
-    message: "Recordatorio Agregado",
-    color: "green",
-    icon: "save",
-  });
-  router.push("/");
-}
+//  $q.notify({
+//    message: "Recordatorio Agregado",
+//    color: "green",
+//    icon: "save",
+//  });
+//  router.push("/");
+//}
 
 onMounted(() => {
-  let arreglo = JSON.parse($q.localStorage.getItem("datos"));
-  //console.log(arreglo._value);
-  if (arreglo != null) datos.value = arreglo._value;
+  //  let arreglo = JSON.parse($q.localStorage.getItem("datos"));
+  //  //console.log(arreglo._value);
+  //  if (arreglo != null) datos.value = arreglo._value;
 });
 </script>

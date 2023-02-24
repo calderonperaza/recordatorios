@@ -4,6 +4,8 @@ una pequena apps de recordatorios
 
 ## Para instalar las dependencias ejecute
 
+Debe tener instalado Nodejs > 14.0
+
 ```bash
 yarn
 # or
